@@ -5,11 +5,12 @@ void main()
 {
 	clrscr();
 	printf(“TypettttSize (bytes)”);
-	printf(“nCharacterttt    %d”,sizeof(char));
-	printf(“nIntegertttt    %d”,sizeof(int));
-	printf(“nLong intttt    %d”,sizeof(long int));
-	printf(“nFloattttt    %d”,sizeof(float));
-	printf(“nDoubletttt    %d”,sizeof(double));
-	printf(“nLong doublettt    %d”,sizeof(long double));
+	printf(“%d”,sizeof(char));
+	printf(“%d”,sizeof(int));
+	printf(“%d”,sizeof(long int));
+	printf(“%d”,sizeof(float));
+	printf(“%d”,sizeof(double));
+	printf(“%d”,sizeof(long double));
 	getch();
+	return 0
 }
