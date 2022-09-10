@@ -10,11 +10,11 @@
 
  * Return: Aways 0 (Sucess)
 
- */
+*/
 
 
 
-int main(void)
+int main(void);
 
 {
 
