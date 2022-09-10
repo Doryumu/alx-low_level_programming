@@ -1,18 +1,36 @@
 #include <stdio.h>
 
-/**
- *  * main - prints all single digit numbers of base 10 starting from 0,
- *   * followed by a new line, using putchar
- *    * Return: Always 0 (Success)
- *     */
-int main(void)
-{
-		int n;
 
-			for (n = 48; n < 58; n++)
-					{
-								putchar(n);
-									}
-				putchar('\n');
-					return (0);
+
+/**
+* main - main block
+* Description: Print all numbers of base 10, starting from 0.
+* You are not allowed to use any variable of type char.
+* You can only use `putchar` to print to console.
+* You can only use `putchar` twice.
+* Return: 0
+*/
+
+
+
+int main(void)
+
+{
+
+	int  x;
+
+
+
+	for (x = 48; x < 58; x++)
+
+	{
+
+		putchar(x);
+
+	}
+
+	putchar('\n');
+
+	return (0);
+
 }
